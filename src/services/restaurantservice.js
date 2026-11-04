@@ -1,5 +1,5 @@
 
-const API_URL = "https://dummyjson.com/recipes";
+const API_URL ="https://dummyjson.com/recipes"; 
 
 export const fetchRestaurants = async () => {
   const response = await fetch(API_URL);
